@@ -1,11 +1,11 @@
-const firstname: string = 'พิตตินันท์ หริกุลรักษ์'
+const firstname : string = "พิตตินันท์ หริกุลรักษ์" 
 let y: number = 10
 y = 20
-let อยากกลับบ้าน:boolean = false
+let wantToGoHome: boolean = false
 
 console.log(firstname)
 console.log(y)
-console.log(อยากกลับบ้าน)
+console.log(wantToGoHome)
 
 let a: number = 210
 let b: number = 130
