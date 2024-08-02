@@ -95,3 +95,51 @@ console.log(fixedDecimal1(1000))
 
 
 const str: string = "I can't go "
+
+
+// function fixedDecimal1(n:number){
+//     const g = n.toLocaleString()
+//     return g
+// }
+
+// console.log(fixedDecimal1(1000))
+
+
+// const str: string = "Pittinun"
+
+// console.log(str.toLowerCase())             //toUpperCase() ทำตัวอักษรใหญ่ toLowerCase() ทำตัวอักษรเล็ก
+
+
+function checkStringLenght(chkstr:string) {
+    const x = chkstr.length
+    return x
+}
+
+console.log(checkStringLenght('pittinun'))
+
+function getCharByIndex(masage:string, index:number) {
+    return masage.charAt(index)
+}
+
+console.log(getCharByIndex('หิวข้าวววว',3))
+
+// const str: string = 'อยากกลับบ้าน'
+
+// console.log(str.indexOf('ก'))
+
+// const str1: string = 'ฉันรักเธอ'
+
+// console.log(str1.includes('เกลียด'))                     //หาคำที่พิมพ์ลงในวงเล็บ
+
+
+function checkStrIndex(massage1:string, find:string) {
+    if (massage1.includes(find))
+         console.log(massage1.indexOf(find))
+ else{
+     console.log('ไม่พบคำที่ค้นหา')
+      }
+ }
+ 
+ 
+ 
+ checkStrIndex('อยากกลับบ้าน Home', 'm')
