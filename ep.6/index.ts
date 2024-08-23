@@ -128,3 +128,11 @@
 //     }
 // }
 
+const n: number[] =[1,2,3,4,5,6,7,8,9,10]
+
+for(let i = 0; i< n.length; i++) {
+    if(n[i] === 3 || n[i] === 5 || n[i] === 7) 
+    n[i] = 0
+}
+
+console.log(n)
