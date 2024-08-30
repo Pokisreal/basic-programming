@@ -81,3 +81,20 @@ friendsNameArray.reverse()
 
 console.log("เรียง ฮ - ก: ", friendsNameArray)
 
+
+
+// const me = {
+//     firstName: 'Pi',
+//     lastName: 'Ha',
+//     age: 15 ,
+//     telephone: '911',
+//     birthday: 121/55/2666,
+//     address: 'eiei',
+//     gender: 'male',
+// }
+
+// ประวัติส่วนตัว
+
+// ชื่อ: 
+// นามสกุล 
+// อายุ: 15
